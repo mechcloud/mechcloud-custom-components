@@ -1,0 +1,38 @@
+{
+   "name": "@mechcloud/custom-components",
+   "private": true,
+   "version": "1.0.0",
+   "license" : "AGPL-3.0-only",
+   "module": "./dist/vue-components.mjs",
+   "scripts": {
+      "install-custom": "yarn install --ignore-engines --ignore-platform",
+      "build": "vite build",
+      "preview": "vite preview --host :: --strictPort --port 30062",
+      "wrangler-dev": "wrangler pages dev --compatibility-date=2023-03-07 --compatibility-flag=nodejs_compat --port 8889 --proxy 30062 -- yarn preview",
+      "wrangler-pages-publish": "wrangler pages publish ./dist --project-name mechcloud-custom-components",
+      "wrangler-tail-logs": "wrangler pages deployment tail --project-name mechcloud-custom-components",
+      "wrangler-version": "wrangler version"
+   },
+   "dependencies": {
+      "@mechcloud/piston-ui-sdk": "link:../../mechcloud/shared/mechcloud-piston-ui-sdk",
+      "pinia": "^2.0.33",
+      "vue": "^3.2.47"
+   },
+   "devDependencies": {
+      "@rollup/plugin-replace": "^5.0.2",
+      "@rollup/plugin-terser": "^0.4.0",
+      "@rollup/plugin-virtual": "^3.0.1",
+      "@vitejs/plugin-vue": "^4.0.0",
+      "eslint": "^8.35.0",
+      "eslint-plugin-vue": "^9.9.0",
+      "postcss": "^8.4.21",
+      "postcss-nested": "^6.0.1",
+      "vite": "^4.1.4",
+      "yarn-upgrade-all": "^0.7.2"
+   },
+   "yarn-upgrade-all": {
+      "ignore": [
+         "@mechcloud/piston-ui-sdk"
+      ]
+   }
+}

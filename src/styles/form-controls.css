@@ -1,0 +1,10 @@
+.form-control {
+   border: 1px solid cyan;
+   padding: 0.5rem;
+   pointer-events: all;
+   cursor: move;
+
+   & > * {
+      display: block;
+   }
+}
