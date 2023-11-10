@@ -1,4 +1,5 @@
-export * from './frames'
-export * from './layouts'
-export * from './pages'
+// export * from './frames'
+export * from './generic'
+// export * from './layouts'
+// export * from './pages'
 

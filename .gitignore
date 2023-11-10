@@ -24,4 +24,5 @@ pnpm-debug.log*
 .settings
 .project
 .yarn
+.wrangler
 
