@@ -29,7 +29,10 @@
    <div 
       class="mc-controls"
    >
-      <mc-text label="Message" v-model="selectedControl.metadata.props.msg" />
+      <mc-text 
+         label="Message" 
+         v-model="selectedControl.metadata.props.msg" 
+      />
    </div>
 </template>
 
