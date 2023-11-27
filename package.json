@@ -10,7 +10,7 @@
       "build": "vite build",
       "preview": "vite preview --host :: --strictPort --port 30062",
       "wrangler-dev": "wrangler pages dev --compatibility-date=2023-03-07 --compatibility-flag=nodejs_compat --port 8889 --proxy 30062 -- yarn preview",
-      "wrangler-pages-publish": "wrangler pages deploy ./dist --project-name mechcloud-custom-components",
+      "wrangler-pages-deploy": "wrangler pages deploy ./dist --project-name mechcloud-custom-components",
       "wrangler-tail-logs": "wrangler pages deployment tail --project-name mechcloud-custom-components",
       "wrangler-version": "wrangler version"
    },
