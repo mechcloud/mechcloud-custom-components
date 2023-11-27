@@ -1,5 +1,5 @@
 <!--
-   Copyright 2020-2023 Shailendra Singh (shailendra.singh@mechcloud.io)
+   Copyright 2020-23 Shailendra Singh (shailendra.singh@mechcloud.io)
 
    This file is part of MechCloud Custom Components.
 
