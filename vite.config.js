@@ -40,11 +40,11 @@ export default defineConfig({
             })
          ]
       },
-      watch: {
-         ignored: [
-            '!**/node_modules/@mechcloud/piston-ui-sdk/dist/**'
-         ]
-      }
+      // watch: {
+      //    ignored: [
+      //       '!**/node_modules/@mechcloud/piston-ui-sdk/dist/**'
+      //    ]
+      // }
    },
    plugins: [
       vue(),
