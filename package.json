@@ -17,19 +17,19 @@
    "dependencies": {
       "@mechcloud/piston-ui-sdk": "link:../../mechcloud/shared/mechcloud-piston-ui-sdk",
       "pinia": "^2.1.7",
-      "vue": "^3.3.4"
+      "vue": "^3.3.13"
    },
    "devDependencies": {
-      "@rollup/plugin-replace": "^5.0.3",
+      "@rollup/plugin-replace": "^5.0.5",
       "@rollup/plugin-terser": "^0.4.4",
       "@rollup/plugin-virtual": "^3.0.2",
-      "@vitejs/plugin-vue": "^4.4.0",
-      "eslint": "^8.51.0",
-      "eslint-plugin-vue": "^9.17.0",
-      "postcss": "^8.4.31",
+      "@vitejs/plugin-vue": "^4.5.2",
+      "eslint": "^8.56.0",
+      "eslint-plugin-vue": "^9.19.2",
+      "postcss": "^8.4.32",
       "postcss-nested": "^6.0.1",
-      "vite": "^4.4.11",
-      "wrangler": "^3.15.0",
+      "vite": "^5.0.10",
+      "wrangler": "^3.22.1",
       "yarn-upgrade-all": "^0.7.2"
    },
    "yarn-upgrade-all": {
